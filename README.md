@@ -9,6 +9,6 @@
         $tiktok = new TikTok($url);
         echo json_encode($tiktok->getLinks(), JSON_PRETTY_PRINT);
     } else {
-        echo json_encode(['result' => false, 'developer' => 'Jakhongir Ganiev', 'message' => "Use 'url' requels to download"], JSON_PRETTY_PRINT);
+        echo json_encode(['result' => false, 'developer' => 'Jakhongir Ganiev', 'message' => "Use 'url' request to download"], JSON_PRETTY_PRINT);
     }
 ```

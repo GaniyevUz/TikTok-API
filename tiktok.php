@@ -1,3 +1,4 @@
+<?php
 class TikTok
 {
     private $links = [];
@@ -15,3 +16,4 @@ class TikTok
         return ['result' => true, 'developer' => 'Jakhongir Ganiev', 'links' => $this->links];
     }
 }
+?>
